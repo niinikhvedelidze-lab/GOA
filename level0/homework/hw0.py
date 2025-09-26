@@ -1,0 +1,80 @@
+from turtle import *
+
+speed(10)
+
+# House base
+width(7)
+color("Purple")
+begin_fill()
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+end_fill()
+
+# Door
+forward(70)
+color("Yellow")
+begin_fill()
+left(90)
+forward(120)
+right(90)
+forward(60)
+right(90)
+forward(120)
+end_fill()
+
+# Roof
+penup()
+goto(0, 200)
+pendown()
+setheading(0) 
+color("red")
+begin_fill()
+left(60)
+forward(200)
+right(120)
+forward(200)
+end_fill()
+
+# Left window
+penup()
+goto(10, 150)
+pendown()
+color("LightBlue")
+setheading(0)
+begin_fill()
+forward(50)
+right(90)
+forward(50) 
+right(90)
+forward(50) 
+right(90)
+forward(50)  
+right(90)
+end_fill()
+
+
+penup()
+goto(145, 150)
+pendown()
+color("LightBlue")
+setheading(0)
+begin_fill()
+forward(50) 
+right(90)
+forward(50)
+right(90)
+forward(50) 
+right(90)
+forward(50)  
+right(90)
+
+end_fill()
+
+exitonclick()
+
