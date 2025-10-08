@@ -2,7 +2,7 @@
 # კონკრეტული რაოდენობისჯერ ან ელემენტების სიაზე (list, string, range) გავიაროთ
 
 # მაგალითი: დავბეჭდოთ "Hello!" 5-ჯერ
-for i in range(5):# range(5) ქმნის რიცხვებს 0-დან 4-მდე → სულ 5 ცალი
+for i in range(5):# range(5) ქმნის რიცხვებს 0-დან 4-მდე, სულ 5 ცალი
     print("Hello!")# ეს ხაზი შესრულდება ყოველი იტერაციისას
 
 # გვაქვს სახელების სია
@@ -46,5 +46,6 @@ print(False or True) #იგივე, ანუ True
 print(False or False) #False, რადგან არ აისახება True ბულეანი.
 
 print(True and False or False or True) #მარტივად რომ გავიგოთ, True and False გამოიტანს False-ს, ხოლო False or True კი True-ს. ეს გვითითებს მოცემული პირობისკენ - True or False, რომლის სწორი პასუხიცაა True.
+
 
 
