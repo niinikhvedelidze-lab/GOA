@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <!-- 
+  Inline CSS → სტილი იწერება პირდაპირ tag-ის შიგნით (style="...")
+  Internal CSS → სტილი იწერება <style> ტეგში head-ის შიგნით
+  External CSS → სტილი იწერება ცალკე .css ფაილში და ერთდება <link> tag-ის საშუალებით
+
+  განსხვავება:
+  
+    Inline მოქმედებს მხოლოდ იმ ერთ ელემენტზე
+    Internal მოქმედებს მთელ გვერდზე (მაგრამ იმ დოკუმენტში)
+    External მუშაობს მრავალ ფაილზე ერთდროულად (რადგან ცალკეა)
+-->
+
+<style>
+  h1 {
+    color: purple;
+    font-size: 36px;
+  }
+
+
+    p {
+      color: blue;
+      font-size: 20px;
+    }
+
+    button {
+      background-color: lightgreen;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: green;
+      color: white;
+    }
+
+    /* 
+     Tag, Class, ID Selector განსხვავება:
+        Tag selector პირდაპირ ელემენტის სახელით.
+        Class selector → წერტილით იწყება და შეიძლება ბევრ ელემენტზე.
+        ID selector → იწყება #-ით და გამოიყენება მხოლოდ ერთ კონკრეტულ ელემენტზე.
+        CSS ტერმინები:
+            
+        Declaration → სტილის ერთეული წესის სრული ნაწილი, მაგ: color: red;
+        Property თვისება, რასაც ვცვლით, მაგ: color
+        Value მნიშვნელობა, რაც ვანიჭებთ, მაგ: red
+        CSS Rule selector + declaration ერთად, მაგ:
+        p { color: red; font-size: 20px; }
+*/
+</style>
+</head>
+
+<body>
+  <p style="color:red; background-color:pink;">ეს არის პირველი პარაგრაფი</p>
+  <p style="color:red; background-color:pink;">ეს არის მეორე პარაგრაფი</p>
+  <p style="color:red; background-color:pink;">ეს არის მესამე პარაგრაფი</p>
+  <p style="color:red; background-color:pink;">ეს არის მეოთხე პარაგრაფი</p>
+  <p style="color:red; background-color:pink;">ეს არის მეხუთე პარაგრაფი</p>
+
+  <h1>ეს არის სათაური Internal CSS-ით</h1>
+  <p>ეს არის პარაგრაფი Internal CSS-ით</p>
+
+  <button>Click here</button>
+</body>
+</html> 

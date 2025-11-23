@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    .pr{
+        color: red;
+        background-color: blue;
+    }
+    <section class="pr ">
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </section>
+    <!-- კლასი (class)
+    გამოიყენება ერთზე მეტ ელემენტზე.
+    შეგიძლია ერთი და იგივე კლასი მიანიჭო მრავალ ელემენტს.
+    CSS-ში კლასზე მიმართვა ხდება წერტილით (.).
+
+    იდენტიფიკატორი (id)
+    გამოიყენება მხოლოდ ერთ ელემენტზე — ანუ უნიკალური უნდა იყოს გვერდზე.
+    CSS-ში მიმართვა ხდება # სიმბოლოთი.
+    ხშირად გამოიყენება კონკრეტული ელემენტის ამოსაცნობად, მაგალითად JavaScript-ში. -->
+
+    <style>
+    .card {
+        background-color: #f0f0f0;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    </style>
+
+    <div class="card">num1</div>
+    <div class="card">num2</div>
+    <div class="card">num3</div>
+
+    <!-- CSS - ეს არის Cascading Style Sheets (კასკადური სტილების ცხრილები).
+    იგი გამოიყენება იმისთვის, რომ ვებგვერდს მისცე ფორმა, ფერები, ზომები და განლაგება.
+    ანუ, თუ HTML განსაზღვრავს რა არის გვერდზე, CSS განსაზღვრავს როგორ გამოიყურება ეს ყველაფერი. -->
+
+    <!-- კლასისა და ID-ის გასასტილად გამოიყენება CSS-სელექტორები
+
+    CSS-ში ელემენტების არჩევა (ანუ selector) ხდება სიმბოლოთი, რომელიც გვიჩვენებს —
+    ვსტილავთ class-ს თუ id-ს. -->
+
+    <p id="intro">ეს არის პარაგრაფი ID-თი</p>
+
+    #intro {
+        color: red;
+        font-weight: bold;
+    }
+
+    <p class="text">ეს არის პარაგრაფი კლასით</p>
+    .text {
+        color: blue;
+        font-size: 18px;
+    }
+    <style>
+        p {
+            color: green;
+            font-size: 19px;
+        }
+    </style>
+
+    <style>
+    
+    p {
+        color: green;
+        font-size: 19px;
+    }
+
+    h1 {
+        color: yellow;
+    }
+    </style>
+
+    <h1>Hello World!</h1>
+    <p>This is a paragraph</p>
+
+    <p>Hello This is a paragraph, <b>This is bold text <i>and this is italic text</i></b></p>
+<!--     
+    <p> არის ყველაფრის მთავარი მშობელი ელემენტი.
+
+    <b> არის შვილი <p>-ის.
+
+    <i> არის შვილი <b>-ის. -->
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  background: #ddd;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #ea5555;
+  font-size: 18px;
+}
+
+p {
+  color: #555;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.red {
+  background: #ea5555;
+  color: white;
+}
+
+.light {
+  background: #f4f7fd;
+  color: #635fc7;
+}
