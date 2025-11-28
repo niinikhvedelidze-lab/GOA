@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.card {
+  width: 380px;
+  background: hsl(0, 0%, 12%);
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%); 
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.bio {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  text-decoration: none;
+  background: hsl(0, 0%, 20%);
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.btn:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.primary {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.primary:hover {
+  background: hsl(75, 94%, 67%);
+}
